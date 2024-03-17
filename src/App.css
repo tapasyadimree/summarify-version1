@@ -81,10 +81,6 @@
   @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
 }
 
-.dark .black_btn {
-  @apply bg-white text-black hover:bg-black hover:text-white;
-}
-
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
@@ -121,7 +117,3 @@
   @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
 }
 
-#moon_icon{
-  width: 30px;
-  cursor: pointer;
-}

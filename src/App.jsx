@@ -5,16 +5,18 @@ import Demo from './components/Demo'
 import './App.css'
 
 const App = () => {
+
   return (
-    <main>
+    <main >
+        
         {/*this div is giving that gradient to my app */}
         <div className="main">
             <div className="gradient"></div>
         </div>
         {/* app class will contain all the contents of app */}
         <div className="app">
-            <Hero />
-            <Demo />
+            <Hero  />
+            <Demo  />
         </div>
     </main>
   )

@@ -10,8 +10,6 @@ const Hero = () => {
           
          
           <div className="flex items-center ">
-
-               <img src='/moon.png' alt="moon_icon" id="moon_icon" className="mr-2"/>
                
                <button type="button" 
                onClick={ () => window.open('https://github.com/tapasyadimree')}
